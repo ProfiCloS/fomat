@@ -16,7 +16,7 @@ class Format
 	protected const OPTION_SYMBOL = 's';
 	protected const OPTION_SYMBOL_SEPARATOR = 'ss';
 	protected const OPTION_SYMBOL_AFTER = 'sa';
-	protected static $currencyOptions = [
+	public static $currencyOptions = [
 		self::CURRENCY_CZK => [
 			self::OPTION_DECIMALS => 0,
 			self::OPTION_SYMBOL => 'Kč',
