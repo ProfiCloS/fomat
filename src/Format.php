@@ -12,10 +12,10 @@ class Format
 	public const CURRENCY_EUR = 'EUR';
 	public const CURRENCY_USD = 'USD';
 
-	protected const OPTION_DECIMALS = 'd';
-	protected const OPTION_SYMBOL = 's';
-	protected const OPTION_SYMBOL_SEPARATOR = 'ss';
-	protected const OPTION_SYMBOL_AFTER = 'sa';
+	public const OPTION_DECIMALS = 'd';
+	public const OPTION_SYMBOL = 's';
+	public const OPTION_SYMBOL_SEPARATOR = 'ss';
+	public const OPTION_SYMBOL_AFTER = 'sa';
 	public static $currencyOptions = [
 		self::CURRENCY_CZK => [
 			self::OPTION_DECIMALS => 0,
